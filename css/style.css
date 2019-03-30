@@ -1,0 +1,172 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #212529;
+}
+
+ul {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
+li {
+  display: inline;
+  padding: 8px 10px;
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: #000000;
+  transition: 0.9s;
+}
+
+.main {
+  background-image: url(../IMG/office.jpg);
+  height: 610px;
+  background-size: cover;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.main h1 {
+  color: #ffffff;
+  font-size: 100px;
+  padding-bottom: 1px;
+  text-align: center;
+  padding-top: 200px;
+  font-weight: lighter;
+}
+
+.main h2 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.icons {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.icons a {
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.icons a:hover {
+  color: #e74c3c;
+  transition: 0.8s;
+}
+
+.inner {
+  max-width: 830px;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.maincontent {
+  text-align: center;
+}
+.maincontent .inner {
+  border-bottom: 2px solid #012846;
+  padding: 40px 0 10px 0;
+}
+.maincontent h3 {
+  color: #012846;
+  font-size: 23px;
+  padding-top: 15px;
+}
+
+.maincontent p {
+  font-size: 18px;
+  padding-bottom: 15px;
+  line-height: 5px;
+}
+
+.iconlogo {
+  float: left;
+  margin-top: -25px;
+  margin-left: 179px;
+  border-radius: 3%;
+  height: 250px;
+  width: 400px;
+  background-color: #dcdde1;
+}
+
+.iconlogo h3 {
+  text-align: center;
+  padding-top: 13px;
+  color: #e84118;
+}
+
+.iconlogo p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -82px;
+  padding-top: 90px;
+  padding-left: 25px;
+  width: 340px;
+}
+
+.iconlogo a {
+  text-decoration: none;
+  color: #e84118;
+}
+
+.iconlogo a:hover {
+  text-decoration: underline;
+  color: #e84118;
+}
+
+.portfolio {
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 270px;
+  font-weight: lighter;
+  position: relative;
+  color: #ffffff;
+}
+
+.line {
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin: 10px auto auto auto;
+  width: 276px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.showcase {
+  padding-left: 175px;
+}
+.showcase img {
+  width: 450px;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.showcase img:hover {
+  box-shadow: 0px 30px 40px white;
+}
